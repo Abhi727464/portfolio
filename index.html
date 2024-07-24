@@ -1,263 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="cv.png">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/d3aebca772.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="cv.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d3aebca772.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;300;500;600&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap"
-        rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;300;500;600&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- -----------------header section---------------------------->
     <div id="header">
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <img src="logo.png" alt="">
-                </div>
-                <div class="navbar">
-                    <ul id="MenuItems">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="https://drive.google.com/file/d/1XXpyNKDaa81eC45UEaUszmoiAybNx4rE/view?usp=sharing" target="_blank">Resume</a></li>
-                        <li><a href="#portfolio">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <img src="menu.png" alt="" class="menu-icon" onclick="menutoggle()">
-                </div>
-            </nav>
-            <div class="header-text">
-                <p class="anim">HI, I'am</p>
-                <H1 class="anim"> <span>Abhay Singh</span></H1>
-                <h2 class="anim"> I am a Web Developer...</h2>
-                <a href="https://drive.google.com/file/d/1XXpyNKDaa81eC45UEaUszmoiAybNx4rE/view?usp=sharing" target="_blank" class="btn">Download CV</a>
-            </div>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="logo.png" alt="" />
+          </div>
+          <div class="navbar">
+            <ul id="MenuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1Ex-BPcvRSFfXbOVmzKZYolKpMuy9e7sM/view?usp=drive_link"
+                  download
+                  target="_blank"
+                  >Resume</a
+                >
+              </li>
+              <li><a href="#portfolio">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <img
+              src="menu.png"
+              alt=""
+              class="menu-icon"
+              onclick="menutoggle()"
+            />
+          </div>
+        </nav>
+        <div class="header-text">
+          <p class="anim">Hi There !</p>
+          <h1 class="anim"><span>I'm Abhay Singh</span></h1>
+          <h2 class="anim">Frontend Developer...</h2>
+          <a
+            href="https://drive.google.com/file/d/1Ex-BPcvRSFfXbOVmzKZYolKpMuy9e7sM/view?usp=drive_link"
+            target="_blank"
+            class="btn"
+            >Download CV</a
+          >
         </div>
+      </div>
     </div>
     <!-- ------------------about section---------------------------->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about_col_1">
-                    <img src="about bg.jpg" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="about_col_1">
+            <img src="about bg.jpg" alt="" />
+          </div>
+          <div class="about_col_2">
+            <h1 class="sub_title">About Me</h1>
+            <p>
+              <span class="hello">Hello!</span><br />My Name is Abhay Singh and
+              I'm a passionate Frontend Developer using web technologies to
+              build amazing websites and focusing on solving problems for
+              different niches.<br />I will love to hear from you.Whether it's
+              just a project,job opportunity,or just a chat.Feel free to contact
+              me. <br /><br />
+            </p>
+            <div class="col">
+              <div class="tab-1">
+                <div class="tab_titles">
+                  <p class="tab_links"><span class="hello">Skills</span></p>
                 </div>
-                <div class="about_col_2">
-                    <h1 class="sub_title">About Me</h1>
-                    <p><span class="hello">Hello!</span><br>My Name is Abhay Singh and I'm a passionate Frontend
-                        Developer using web technologies to build amazing websites and focusing on solving problems for
-                        different niches.<br>I will love to hear from you.Whether it's just a project,job
-                        opportunity,or just a chat.Feel free to contact me. <br><br></p>
-                    <div class="col">
-                        <div class="tab-1">
-                            <div class="tab_titles">
-                                <p class="tab_links "><span class="hello">Skills</span></p>
-                            </div>
-                            <div class="tab_contents">
-                                <ul>
-                                    <li><span>Frontend Technologies</span><br>HTML,CSS,JavaScript</li>
-                                    <li><span>Frameworks</span><br>Bootstrap,React</li>
-                                    <li><span>Familiar With</span><br>MySQL,GitHub</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="tab-2">
-                            <div class="tab_titles">
-                                <p class="tab_links"><span class="hello">Education</span></p>
-                            </div>
-                            <div class="tab_contents" id="education">
-                                <ul>
-                                    <li><span>2022</span><br>Full Stack Developer Course From Acciojob</li>
-                                    <li><span>2021</span><br>Graduation(Bsc) MJP University Roohelkhand</li>
-                                    <li><span>2021</span><br>Diploma In Web Development From Aptech(Kanpur)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div class="tab_contents">
+                  <ul>
+                    <li>
+                      <span>Frontend Technologies</span
+                      ><br />HTML,CSS,JavaScript
+                    </li>
+                    <li><span>Frameworks</span><br />Bootstrap,React</li>
+                    <li><span>Familiar With</span><br />MySQL,GitHub</li>
+                  </ul>
                 </div>
+              </div>
+              <div class="tab-2">
+                <div class="tab_titles">
+                  <p class="tab_links"><span class="hello">Education</span></p>
+                </div>
+                <div class="tab_contents" id="education">
+                  <ul>
+                    <li>
+                      <span>2022</span><br />Full Stack Developer Course From
+                      Acciojob
+                    </li>
+                    <li>
+                      <span>2021</span><br />Graduation(Bsc) MJP University
+                      Roohelkhand
+                    </li>
+                    <li>
+                      <span>2021</span><br />Diploma In Web Development From
+                      Aptech(Kanpur)
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-------------------projects section-------------------------------------------->
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub_title">My Projects</h1>
-            <div class="row">
-                <div class="col-3">
-                    <div class="img">
-                        <img src="crypto.png" alt="">
-                        <div class="overlay">
-                            <p>A Crypto Tracker App</p>
-                            <a href="https://cryptotracker-project.netlify.app/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="img">
-                        <img src="zomato.png" alt="">
-                        <div class="overlay">
-                            <p>Zomato Clone</p>
-                            <a href="https://zomato-clone-by-abhi.netlify.app/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="img">
-                        <img src="food order.png" alt="">
-                        <div class="overlay">
-                            <p>Food Delivery App</p>
-                            <a href="https://food-order-app-by-abhi.netlify.app/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="img">
-                        <img src="agro.png" alt="">
-                        <div class="overlay">
-                            <p>Online Agriculture Products Store</p>
-                            <a href="https://www.agrocoop.in/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="img">
-                        <img src="sports.png" alt="">
-                        <div class="overlay">
-                            <p>E-Commerce Sports Wear Site</p>
-                            <a href="https://redstoreonlinesports.netlify.app/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="img">
-                        <img src="project-3.jpg" alt="">
-                        <div class="overlay">
-                            <p>Online Coding Learing Blog</p>
-                            <a href="https://abhi727464.github.io/Icoder/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub_title">My Projects</h1>
+        <div class="row">
+          <div class="col-3">
+            <div class="img">
+              <img src="folksmedia.png" alt="" />
+              <div class="overlay">
+                <p>A Streaming guide for movies,tv shows and sports.</p>
+                <a
+                  href="https://www.folksmedia.com/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
             </div>
-             <div class="row">
-                <div class="col-3">
-                    <div class="img">
-                        <img src="form.png" alt="">
-                        <div class="overlay">
-                            <p>Authentication Form</p>
-                            <a href="https://module-test-authentication.netlify.app/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="img">
-                        <img src="fruitika.png" alt="">
-                        <div class="overlay">
-                            <p>Online Fruit Order Webpage design</p>
-                            <a href="https://abhi727464.github.io/Frutika/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="img">
-                        <img src="modren.png" alt="">
-                        <div class="overlay">
-                            <p>Modern Webpage with toggle button</p>
-                            <a href="https://abhi727464.github.io/Modern-Webpage/" target="_blank" class="live-btn"><i
-                                    class="fas fa-external-link-alt"></i>
-                                See Live</a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+          </div>
+          <div class="col-3">
+            <div class="img">
+              <img src="crypto.png" alt="" />
+              <div class="overlay">
+                <p>A Crypto Tracker App</p>
+                <a
+                  href="https://cryptotracker-project.netlify.app/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="img">
+              <img src="zomato.png" alt="" />
+              <div class="overlay">
+                <p>Zomato Clone</p>
+                <a
+                  href="https://zomato-clone-by-abhi.netlify.app/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="img">
+              <img src="food order.png" alt="" />
+              <div class="overlay">
+                <p>Food Delivery App</p>
+                <a
+                  href="https://food-order-app-by-abhi.netlify.app/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="img">
+              <img src="sports.png" alt="" />
+              <div class="overlay">
+                <p>E-Commerce Sports Wear Site</p>
+                <a
+                  href="https://redstoreonlinesports.netlify.app/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="img">
+              <img src="form.png" alt="" />
+              <div class="overlay">
+                <p>Authentication Form</p>
+                <a
+                  href="https://module-test-authentication.netlify.app/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- <div class="row">
+          <div class="col-3">
+            <div class="img">
+              <img src="form.png" alt="" />
+              <div class="overlay">
+                <p>Authentication Form</p>
+                <a
+                  href="https://module-test-authentication.netlify.app/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="img">
+              <img src="fruitika.png" alt="" />
+              <div class="overlay">
+                <p>Online Fruit Order Webpage design</p>
+                <a
+                  href="https://abhi727464.github.io/Frutika/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="img">
+              <img src="modren.png" alt="" />
+              <div class="overlay">
+                <p>Modern Webpage with toggle button</p>
+                <a
+                  href="https://abhi727464.github.io/Modern-Webpage/"
+                  target="_blank"
+                  class="live-btn"
+                  ><i class="fas fa-external-link-alt"></i> See Live</a
+                >
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
     </div>
     <!-- ----------------------contact section-------------------------------->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact_left">
-                    <h1 class="sub_title" style="text-align:left; padding-bottom: 40px;">
-                        Contact Me
-                    </h1>
-                    <p><i class="fas fa-mail-bulk"></i>abhaysinghparmar123@gmail.com</p>
-                    <p><i class="fas fa-phone-alt"></i>9140799675</p>
-                    <div class="social_icons">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                    </div>
-                    <a href="AbhaySinghcv (4).pdf" download class="btn">Download CV</a>
-                </div>
-                <div class="contact_right">
-                    <form action="" name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="Email" name="email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
-                        <a href="" class="btn-2">
-                            Submit</a>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact_left">
+            <h1
+              class="sub_title"
+              style="text-align: left; padding-bottom: 40px"
+            >
+              Contact Me
+            </h1>
+            <p><i class="fas fa-mail-bulk"></i>abhaysinghparmar123@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>9140799675</p>
+            <div class="social_icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
             </div>
+            <a href="AbhaySinghResume.pdf" download class="btn">Download CV</a>
+          </div>
+          <div class="contact_right">
+            <form action="" name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="Email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="8"
+                placeholder="Your Message"
+              ></textarea>
+              <a href="" class="btn-2"> Submit</a>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        <!-- --------------------footer section------------------------------------>
-        <div class="copyright">
-            <p>Copyright © 2022 Abhi <i class="fas fa-heart"></i>. All Rights Reserved.</p>
-        </div>
+      </div>
+      <!-- --------------------footer section------------------------------------>
+      <div class="copyright">
+        <p>
+          Copyright © 2022 Abhi <i class="fas fa-heart"></i>. All Rights
+          Reserved.
+        </p>
+      </div>
     </div>
 
     <!-- -------------------js for menu--------------- -->
     <script>
-        var MenuItems = document.getElementById("MenuItems");
-        MenuItems.style.maxHeight = "0px";
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px";
-            }
-            else {
-                MenuItems.style.maxHeight = "0px";
-            }
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
         }
+      }
     </script>
 
     <!-- sticky nav bar script -->
-    <script src="https://code.jquery.com/jquery-3.6.1.js">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script>
-        window.addEventListener("scroll", function () {
-            var nav = document.querySelector("nav");
-            nav.classList.toggle("sticky", window.scrollY > 0);
-        })
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+      });
     </script>
-</body>
-
+  </body>
 </html>
