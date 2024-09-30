@@ -144,6 +144,7 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 .about_col_1 {
   flex-basis: 35%;
@@ -152,6 +153,7 @@ nav ul li a:hover::after {
   width: 100%;
   border-radius: 18px;
   transition: 0.3s;
+  transform: scaleX(-1);
   /* filter: grayscale(); */
 }
 .about_col_1 img:hover {
@@ -164,11 +166,18 @@ nav ul li a:hover::after {
 .about_col_2 p {
   color: #a2a1a1;
 }
-.sub_title {
+.sub_title1 {
   font-size: 50px;
   font-weight: 600;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.sub_title2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
   text-align: center;
 }
 .hello {
@@ -202,11 +211,11 @@ nav ul li a:hover::after {
   display: flex;
 }
 .tab-1 {
-  flex-basis: 35%;
+  flex-basis: 33%;
   padding-right: 40px;
 }
 .tab-2 {
-  flex-basis: 60%;
+  flex-basis: 33%;
 }
 /* ---------------------projects section-------------------- */
 #portfolio {
